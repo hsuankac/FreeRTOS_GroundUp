@@ -1,0 +1,10 @@
+15:09:29 **** Incremental Build of configuration Debug for project 32_TheScheduler-PsuedoTimeSlicing ****
+make -j8 all 
+arm-none-eabi-size   32_TheScheduler-PsuedoTimeSlicing.elf 
+   text	   data	    bss	    dec	    hex	filename
+  19212	     24	  20424	  39660	   9aec	32_TheScheduler-PsuedoTimeSlicing.elf
+Finished building: default.size.stdout
+ 
+
+15:09:29 Build Finished. 0 errors, 0 warnings. (took 764ms)
+

@@ -1,0 +1,11 @@
+main.c:21:5:main	1
+main.c:65:6:SystemClock_Config	3
+main.c:109:13:MX_USART2_UART_Init	2
+main.c:128:13:MX_GPIO_Init	1
+main.c:152:5:__io_putchar	1
+main.c:159:5:uart2_write	2
+main.c:167:6:HAL_TIM_PeriodElapsedCallback	2
+main.c:175:6:SenderTask1	3
+main.c:192:6:SenderTask2	3
+main.c:209:6:ReceiverTask	2
+main.c:230:6:Error_Handler	1

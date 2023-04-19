@@ -1,0 +1,10 @@
+22:24:22 **** Incremental Build of configuration Debug for project 20_semaphore_mutex ****
+make -j8 all 
+arm-none-eabi-size   20_semaphore_mutex.elf 
+   text	   data	    bss	    dec	    hex	filename
+  26008	    124	  20508	  46640	   b630	20_semaphore_mutex.elf
+Finished building: default.size.stdout
+ 
+
+22:24:22 Build Finished. 0 errors, 0 warnings. (took 693ms)
+

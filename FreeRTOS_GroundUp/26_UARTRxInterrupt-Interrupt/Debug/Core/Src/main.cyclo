@@ -1,0 +1,10 @@
+core_cm4.h:1688:22:__NVIC_EnableIRQ	2
+core_cm4.h:1816:22:__NVIC_SetPriority	2
+main.c:21:5:main	1
+main.c:47:6:start_rx_interrupt	1
+main.c:55:6:USART2_IRQHandler	4
+main.c:72:6:HandlerTask	1
+main.c:84:6:SystemClock_Config	3
+main.c:128:13:MX_GPIO_Init	1
+main.c:147:6:HAL_TIM_PeriodElapsedCallback	2
+main.c:155:6:Error_Handler	1

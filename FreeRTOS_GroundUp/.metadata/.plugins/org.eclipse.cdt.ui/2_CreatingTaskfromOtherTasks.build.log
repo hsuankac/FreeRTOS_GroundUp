@@ -1,0 +1,17 @@
+10:22:53 **** Incremental Build of configuration Debug for project 2_CreatingTaskfromOtherTasks ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "2_CreatingTaskfromOtherTasks.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\learning\FreeRTOS_GroundUp\FreeRTOS_GroundUp\2_CreatingTaskfromOtherTasks\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="2_CreatingTaskfromOtherTasks.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 2_CreatingTaskfromOtherTasks.elf
+ 
+arm-none-eabi-size   2_CreatingTaskfromOtherTasks.elf 
+arm-none-eabi-objdump -h -S  2_CreatingTaskfromOtherTasks.elf  > "2_CreatingTaskfromOtherTasks.list"
+   text	   data	    bss	    dec	    hex	filename
+  20644	     24	  20488	  41156	   a0c4	2_CreatingTaskfromOtherTasks.elf
+Finished building: default.size.stdout
+ 
+Finished building: 2_CreatingTaskfromOtherTasks.list
+ 
+
+10:22:55 Build Finished. 0 errors, 0 warnings. (took 1s.988ms)
+

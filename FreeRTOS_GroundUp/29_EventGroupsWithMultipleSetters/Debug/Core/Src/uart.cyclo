@@ -1,0 +1,5 @@
+uart.c:7:6:USART2_UART_TX_Init	1
+uart.c:22:6:USART2_UART_RX_Init	1
+uart.c:37:5:USART2_write	2
+uart.c:47:5:USART2_read	2
+uart.c:53:5:__io_putchar	1
