@@ -1,0 +1,5 @@
+core_cm4.h:1688:22:__NVIC_EnableIRQ	2
+core_cm4.h:1816:22:__NVIC_SetPriority	2
+exti.c:3:6:p13_interrupt_init	1
+exti.c:31:6:goio_init	1
+exti.c:37:9:read_digital_sensor	2

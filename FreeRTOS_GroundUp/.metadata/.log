@@ -4765,3 +4765,24 @@ java.lang.Exception: Resource '/37_Cmsis_Rtos_ThreadResume' does not exist.
 
 !ENTRY org.eclipse.cdt.core 1 0 2023-04-19 10:40:02.246
 !MESSAGE Indexed '45_Cmsis_Rtos_EventFlags' (34 sources, 142 headers) in 3 sec: 14,184 declarations; 73,767 references; 2 unresolved inclusions; 152 syntax errors; 148 unresolved names (0.17%)
+!SESSION 2023-04-19 14:28:32.362 -----------------------------------------------
+eclipse.buildId=Version 1.12.0
+java.version=11.0.17
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2023-04-19 14:29:07.013
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2023-04-19 14:29:07.016
+!MESSAGE Log4j2 initialized with config file C:\learning\FreeRTOS_GroundUp\FreeRTOS_GroundUp\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2023-04-19 14:29:25.392
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-04-19 15:23:42.443
+!MESSAGE Indexed '34_Task_CreationStatic' (34 sources, 141 headers) in 6.14 sec: 14,138 declarations; 73,678 references; 2 unresolved inclusions; 152 syntax errors; 148 unresolved names (0.17%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-04-19 23:50:01.037
+!MESSAGE Indexed '46_cooperative_idel_task' (34 sources, 141 headers) in 4.5 sec: 14,146 declarations; 73,705 references; 2 unresolved inclusions; 152 syntax errors; 148 unresolved names (0.17%)

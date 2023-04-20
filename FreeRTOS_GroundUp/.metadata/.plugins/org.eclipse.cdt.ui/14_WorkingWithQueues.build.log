@@ -1,4 +1,4 @@
-22:56:05 **** Clean-only build of configuration Debug for project 14_WorkingWithQueues ****
+23:13:04 **** Clean-only build of configuration Debug for project 14_WorkingWithQueues ****
 make -j8 clean 
 rm -rf ./Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.cyclo ./Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.d ./Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.o ./Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.su
 rm -rf ./Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.cyclo ./Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.d ./Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.o ./Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.su
@@ -10,5 +10,5 @@ rm -rf ./Core/Src/freertos.cyclo ./Core/Src/freertos.d ./Core/Src/freertos.o ./C
 rm -rf 14_WorkingWithQueues.elf 14_WorkingWithQueues.list 14_WorkingWithQueues.map default.size.stdout
  
 
-22:56:05 Build Finished. 0 errors, 0 warnings. (took 562ms)
+23:13:04 Build Finished. 0 errors, 0 warnings. (took 473ms)
 

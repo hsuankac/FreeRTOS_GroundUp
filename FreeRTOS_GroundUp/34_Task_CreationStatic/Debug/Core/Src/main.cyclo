@@ -1,0 +1,8 @@
+main.c:23:5:main	1
+main.c:50:6:SystemClock_Config	3
+main.c:94:13:MX_USART2_UART_Init	2
+main.c:113:13:MX_GPIO_Init	1
+main.c:137:6:vBlueLedControllerTask	1
+main.c:146:5:__io_putchar	1
+main.c:152:6:HAL_TIM_PeriodElapsedCallback	2
+main.c:160:6:Error_Handler	1

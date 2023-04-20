@@ -100,7 +100,7 @@ void vReceiverTask(void *pvParameters)
 	char *pcReceivedString;
 	while(1)
 	{
-		xQueueThatContainsData = (QueueHandle_t )xQueueSelectFromSet(xQueueSet,portMAX_DELAY);
+		xQueueThatContainsData = (QueueHandle_t )xQueueSelectFromSet(xQueueSet, portMAX_DELAY);
 		xQueueReceive(xQueueThatContainsData, &pcReceivedString, 0);
 		printf(pcReceivedString);
 	}

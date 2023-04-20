@@ -1,4 +1,4 @@
-17:19:44 **** Clean-only build of configuration Debug for project 12_ExecutingTaskPeriodically ****
+23:49:32 **** Clean-only build of configuration Debug for project 12_ExecutingTaskPeriodically ****
 make -j8 clean 
 rm -rf ./Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.cyclo ./Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.d ./Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.o ./Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.su
 rm -rf ./Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.cyclo ./Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.d ./Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.o ./Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.su
@@ -10,5 +10,5 @@ rm -rf ./Core/Src/freertos.cyclo ./Core/Src/freertos.d ./Core/Src/freertos.o ./C
 rm -rf 12_ExecutingTaskPeriodically.elf 12_ExecutingTaskPeriodically.list 12_ExecutingTaskPeriodically.map default.size.stdout
  
 
-17:19:44 Build Finished. 0 errors, 0 warnings. (took 489ms)
+23:49:32 Build Finished. 0 errors, 0 warnings. (took 425ms)
 
