@@ -1,0 +1,24 @@
+--cpu Cortex-M4.fp
+".\objects\stm32f4_rtos_bsp.o"
+".\objects\main.o"
+".\objects\glcd_st7735.o"
+".\objects\stm32f4xx_hal.o"
+".\objects\stm32f4xx_hal_adc.o"
+".\objects\stm32f4xx_hal_adc_ex.o"
+".\objects\stm32f4xx_hal_cortex.o"
+".\objects\stm32f4xx_hal_dma.o"
+".\objects\stm32f4xx_hal_dma_ex.o"
+".\objects\stm32f4xx_hal_gpio.o"
+".\objects\stm32f4xx_hal_pwr.o"
+".\objects\stm32f4xx_hal_pwr_ex.o"
+".\objects\stm32f4xx_hal_rcc.o"
+".\objects\stm32f4xx_hal_rcc_ex.o"
+".\objects\stm32f4xx_hal_spi.o"
+".\objects\stm32f4xx_hal_tim.o"
+".\objects\stm32f4xx_hal_tim_ex.o"
+".\objects\startup_stm32f411xe.o"
+".\objects\system_stm32f4xx.o"
+--strict --scatter ".\Objects\STM32F4_DISCO_BSP.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\STM32F4_DISCO_BSP.map" -o .\Objects\STM32F4_DISCO_BSP.axf

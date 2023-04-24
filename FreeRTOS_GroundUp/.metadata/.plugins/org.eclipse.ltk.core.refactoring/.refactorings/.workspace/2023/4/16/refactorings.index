@@ -3,3 +3,5 @@
 1681921855690	Rename resource '37_Cmsis_Rtos_ThreadSuspend'
 1681921875929	Rename resource '37_Cmsis_Rtos_Threadresume'
 1681922198203	Rename resource '37_Cmsis_Rtos_ThreadResume'
+1682029092916	Rename resource '46_cooperative_idel_task'
+1682098231465	Delete resource '48_SVCService'
